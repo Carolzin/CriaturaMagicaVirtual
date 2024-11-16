@@ -145,7 +145,6 @@ class CriaturaMagica {
             energiaMagica -= 10;
         }
 
-        // Exibe o status após o duelo
         System.out.println(nome + " agora tem " + energiaMagica + " de energia mágica.");
         System.out.println(nome + " tem " + nivelDeEncantamento + " de nível de encantamento.");
     }
