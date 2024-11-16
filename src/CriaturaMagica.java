@@ -150,7 +150,7 @@ class CriaturaMagica {
     }
 
     private void aumentarNivel() {
-        if (energiaMagica + nivelDeEncantamento > 150) {
+        if (energiaMagica + nivelDeEncantamento > 160) {
             nivel = 5;
         } else if (energiaMagica + nivelDeEncantamento > 120) {
             nivel = 4;
